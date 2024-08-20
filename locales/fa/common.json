@@ -1,0 +1,15 @@
+{
+  "navigation": {
+    "Home": "خانه",
+    "About": "درباره من",
+    "title": "بردیا ریاحی"
+  },
+  "home": {
+    "Home title": "عنوان خانه",
+    "Home description": "وضعیت خانه"
+  },
+  "about": {
+    "About title": "درباره  تایتل",
+    "About description": "درباره  توضیحات"
+  }
+}
