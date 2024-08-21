@@ -1,7 +1,9 @@
 {
   "navigation": {
     "Home": "Home",
-    "About": "About"
+    "About": "About",
+    "Contact" : "contact",
+    "title" : "Bardia Riahi's personal website"
   },
   "home": {
     "Home title": "Home title",

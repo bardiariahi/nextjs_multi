@@ -14,9 +14,9 @@ async function Home({ params: { locale } }: { params: { locale: string } }) {
       resources={resources}
     >
       <Navigation />
-      <div className="container">
-        <div className="mt-24 h-96">
-          <h1 className="text-gray-600">{t("home.Home title")}</h1>
+      <div className="pt-5">
+        <div className="h-96">
+          <h1 className="text-primary ">{t("home.Home title")}</h1>
           <p className="text-red-600">{t("home.Home description")}</p>
         </div>
         <div className="h-96">

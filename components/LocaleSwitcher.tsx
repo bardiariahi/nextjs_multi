@@ -36,7 +36,7 @@ export default function LocaleSwitcher() {
   };
 
   return (
-    <select onChange={handleChangeLocale} value={currentLocale}>
+    <select className="select" onChange={handleChangeLocale} value={currentLocale}>
       <option value="en">English</option>
       <option value="ar">Arabic</option>
       <option value="fa">farsi</option>

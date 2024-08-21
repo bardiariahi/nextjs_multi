@@ -2,7 +2,8 @@
   "navigation": {
     "Home": "مسكن",
     "About": "حول",
-    "title": "بردیا ریاحی"
+    "Contact" : "contact",
+    "title": "الموقع الشخصي لـ برديا الرياحي"
   },
   "home": {
     "Home title": "عنوان المنزل",

@@ -1,9 +1,9 @@
 import "./globals.css";
 import i18nConfig from "@/i18nConfig";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { ReactNode } from "react";
 import { dir } from "i18next";
+import ThemeProvider from "@/providers/ThemeProvider";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,7 +23,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang={locale} dir={dir(locale)}>
-      <body className="px-6 pt-5">{children}</body>
+      <body className="px-6 py-5">
+        <ThemeProvider>
+        {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
