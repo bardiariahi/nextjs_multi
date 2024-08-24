@@ -1,6 +1,6 @@
 import TranslationsProvider from "@/components/TranslationsProvider";
-import Navigation from "@/components/Navigation";
 import initializeTranslations from "@/app/i18n";
+import Navigation from "@/components/navbar/Navigation";
 
 const i18nNamespaces = ["common"];
 
